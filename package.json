@@ -1,0 +1,18 @@
+{
+  "name": "string-tool",
+  "version": "1.1.0",
+  "description": "Useful functions for handling Strings",
+  "main": "string-tool.es5.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "keywords": [
+    "string"
+  ],
+  "author": "Jannes Meyer",
+  "license": "GPLv3",
+  "devDependencies": {
+    "babel": "x",
+    "jasmine": "2.x"
+  }
+}
