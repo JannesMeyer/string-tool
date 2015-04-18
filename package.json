@@ -1,6 +1,6 @@
 {
   "name": "string-tool",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Useful functions for handling Strings",
   "main": "string-tool.es5.js",
   "scripts": {
