@@ -9,8 +9,8 @@ import { startsWith, capitalize } from 'string-tool';
 	- [.startsWith](#startswith)
 	- [.capitalize](#capitalize)
 	- [.nthindexof](#nthindexof)
-	- [.cutFirst](#cutFirst)
-	- [.cutFromIndex](#cutFromIndex)
+	- [.cutFirst](#cutfirst)
+	- [.cutFromIndex](#cutfromindex)
 
 ## startsWith
 
