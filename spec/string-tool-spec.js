@@ -1,4 +1,4 @@
-import { startsWith, capitalize, nthIndexOf, cutFirst, cutFromIndex } from '../';
+import { startsWith, capitalize, nthIndexOf, cutFirst, cutFromIndex } from '..';
 
 describe("startsWith", () => {
 	it("should return true when the string starts with another string", () => {
