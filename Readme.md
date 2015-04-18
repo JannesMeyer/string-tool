@@ -7,25 +7,22 @@ import { startsWith } from 'string-tool';
 
 - [string-tool](#string-tool)
 	- [.startsWith](#startswith)
+	- [.capitalize](#capitalize)
+	- [.nthindexof](#nthindexof)
 
-## startsWith()
+## startsWith
+
+	startsWith(str, searchString) → Boolean
 
 Checks if `str` starts with the `searchString`
 
-	startsWith(str, searchString)
+## capitalize
 
-Returns: Boolean
-
-## capitalize()
+	capitalize(str) → String
 
 Capitalizes the first letter of `str`
 
-	capitalize(str)
+## nthIndexOf
 
-Returns: String
+	nthIndexOf(str, searchString, n[, fromIndex]) → Number
 
-## nthIndexOf()
-
-	nthIndexOf(str, searchString, n[, fromIndex])
-
-Returns: Number
