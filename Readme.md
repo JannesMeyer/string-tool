@@ -2,8 +2,6 @@
 [![Dependencies](https://david-dm.org/JannesMeyer/string-tool.svg)](https://david-dm.org/JannesMeyer/string-tool)
 [![Development Dependencies](https://david-dm.org/JannesMeyer/string-tool.svg)](https://david-dm.org/JannesMeyer/string-tool/dev-status.svg)
 
-# string-tool
-
 **Import what you need** (ES6 syntax)
 ~~~js
 import { startsWith, capitalize } from 'string-tool';
