@@ -2,13 +2,15 @@
 
 **Import what you need** (ES6 syntax)
 ~~~js
-import { startsWith } from 'string-tool';
+import { startsWith, capitalize } from 'string-tool';
 ~~~
 
 - [string-tool](#string-tool)
 	- [.startsWith](#startswith)
 	- [.capitalize](#capitalize)
 	- [.nthindexof](#nthindexof)
+	- [.cutFirst](#cutFirst)
+	- [.cutFromIndex](#cutFromIndex)
 
 ## startsWith
 
@@ -26,3 +28,16 @@ Capitalizes the first letter of `str`
 
 	nthIndexOf(str, searchString, n[, fromIndex]) → Number
 
+Finds the index of the nth occurence of `searchString`
+
+## cutFirst
+
+	cutFirst(str, searchString) → String
+
+Remove the first occurence of `searchString`
+
+## cutFromIndex
+
+	cutFromIndex(str, fromIndex) → String
+
+Remove everything after `fromIndex`
