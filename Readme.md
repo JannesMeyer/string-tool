@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/JannesMeyer/string-tool.svg?branch=master)](https://travis-ci.org/JannesMeyer/string-tool)
+
 # string-tool
 
 **Import what you need** (ES6 syntax)
