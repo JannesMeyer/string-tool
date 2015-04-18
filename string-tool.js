@@ -1,12 +1,12 @@
 /**
- * Check if the string starts with the `searchString`
+ * Checks if `str` starts with the `searchString`
  */
 export function startsWith(str, searchString) {
 	return str.slice(0, searchString.length) === searchString;
 }
 
 /**
- * Capitalize the first letter of a string
+ * Capitalizes the first letter of `str`
  */
 export function capitalize(str) {
 	return str.charAt(0).toUpperCase() + str.slice(1);
