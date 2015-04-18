@@ -6,10 +6,10 @@ spec = spec/string-tool-spec.es5.js
 
 all: $(js) $(spec) node_modules
 
-test: build
+test: all
 	$(JASMINE)
 
-test-without-color: build
+test-without-color: all
 	$(JASMINE) --no-color
 
 node_modules:
