@@ -1,6 +1,6 @@
 {
   "name": "string-tool",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Useful functions for handling Strings",
   "keywords": [
     "string"
