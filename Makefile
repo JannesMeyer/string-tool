@@ -4,7 +4,7 @@ JASMINE=./node_modules/.bin/jasmine
 js = string-tool.es5.js
 spec = spec/string-tool-spec.es5.js
 
-all: $(js) $(spec) node_modules
+all: node_modules $(js) $(spec)
 
 test: all
 	$(JASMINE)
