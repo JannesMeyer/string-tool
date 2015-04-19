@@ -1,12 +1,10 @@
 {
   "name": "string-tool",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Useful functions for handling Strings",
-  "keywords": [
-    "string"
-  ],
+  "keywords": [ "string" ],
   "author": "Jannes Meyer <jannes.meyer@gmail.com>",
-  "license": "GPLv3",
+  "license": "LGPLv3",
   "repository": "JannesMeyer/string-tool",
   "scripts": {
     "prepublish": "make",
