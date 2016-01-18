@@ -37,6 +37,7 @@ describe('nthIndexOf', () => {
 	});
 
 	it('should return undefined when the searchString does not exist', () => {
+		expect(nthIndexOf('testtest test', 0, 'test')).toBe(undefined);
 		expect(nthIndexOf('bla bla bla', 2, 'test')).toBe(undefined);
 	});
 

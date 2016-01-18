@@ -19,17 +19,13 @@ export function capitalize(str) {
  * @see: String.prototype.lastIndexOf
  */
 export function nthIndexOf(text, n, searchString) {
-	let index;
-	for (let i = 0; i < n; ++i) {
-		if (index != null) {
-			index += searchString.length;
-		}
-		index = text.indexOf(searchString, index);
-		if (index === -1) {
-			return undefined;
-		}
+	for(; n > 0; --n) {
+		var index = text.indexOf(searchString, index);
+		if (index === -1) { return undefined; }
+		if (n === 1) { return index; }
+		index += searchString.length;
 	}
-	return index;
+	return undefined;
 }
 
 /**
