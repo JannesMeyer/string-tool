@@ -22,10 +22,9 @@ export function nthIndexOf(text, n, searchString) {
 	for(; n > 0; --n) {
 		var index = text.indexOf(searchString, index);
 		if (index === -1) { return undefined; }
-		if (n === 1) { return index; }
-		index += searchString.length;
+		if (n > 1) { index += searchString.length; }
 	}
-	return undefined;
+	return index;
 }
 
 /**
