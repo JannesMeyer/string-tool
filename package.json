@@ -2,7 +2,9 @@
   "name": "string-tool",
   "version": "2.0.0",
   "description": "Useful functions for handling Strings",
-  "keywords": [ "string" ],
+  "keywords": [
+    "string"
+  ],
   "author": "Jannes Meyer <jannes.meyer@gmail.com>",
   "license": "LGPL-3.0",
   "repository": "JannesMeyer/string-tool",
@@ -13,6 +15,8 @@
   },
   "devDependencies": {
     "babel-cli": "^6.3.26",
+    "babel-plugin-syntax-flow": "^6.3.13",
+    "babel-plugin-transform-flow-strip-types": "^6.4.0",
     "babel-preset-es2015": "^6.3.13",
     "jasmine": "^2.4.1"
   }

@@ -18,7 +18,7 @@ export function capitalize(str) {
  * @see: String.prototype.indexOf
  * @see: String.prototype.lastIndexOf
  */
-export function nthIndexOf(text, n, searchString) {
+export function nthIndexOf(text: string, n: number, search: string): number {
 	for(; n > 0; --n) {
 		var index = text.indexOf(searchString, index);
 		if (index === -1) { return undefined; }
