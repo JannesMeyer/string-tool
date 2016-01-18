@@ -14,12 +14,11 @@
 import { capitalize } from 'string-tool';
 ```
 
-- [string-tool](#string-tool)
-	- [.startsWith](#startswith)
-	- [.capitalize](#capitalize)
-	- [.nthindexof](#nthindexof)
-	- [.cutFirst](#cutfirst)
-	- [.cutFromIndex](#cutfromindex)
+- [.startsWith](#startswith)
+- [.capitalize](#capitalize)
+- [.nthindexof](#nthindexof)
+- [.cutFirst](#cutfirst)
+- [.cutFromIndex](#cutfromindex)
 
 ### startsWith
 
