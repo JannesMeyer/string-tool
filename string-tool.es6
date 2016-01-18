@@ -13,10 +13,7 @@ export function capitalize(str) {
 }
 
 /**
- * Finds the index of the nth occurence of `searchString`
- *
- * @see: String.prototype.indexOf
- * @see: String.prototype.lastIndexOf
+ * Finds the index of the nth occurence of `search` in `text`
  */
 export function nthIndexOf(text: string, n: number, search: string): number {
 	for(; n > 0; --n) {
