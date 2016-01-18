@@ -1,25 +1,14 @@
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-	value: true
-});
-exports.startsWith = startsWith;
-exports.capitalize = capitalize;
-exports.nthIndexOf = nthIndexOf;
-exports.cutFirst = cutFirst;
-exports.cutBefore = cutBefore;
-exports.cutBeforeIndex = cutBeforeIndex;
 /**
  * Checks if `str` starts with the `searchString`
  */
-function startsWith(str, searchString) {
+export function startsWith(str, searchString) {
 	return str.slice(0, searchString.length) === searchString;
 }
 
 /**
  * Capitalizes the first letter of `str`
  */
-function capitalize(str) {
+export function capitalize(str) {
 	return str.charAt(0).toUpperCase() + str.slice(1);
 }
 
@@ -29,9 +18,9 @@ function capitalize(str) {
  * @see: String.prototype.indexOf
  * @see: String.prototype.lastIndexOf
  */
-function nthIndexOf(text, n, searchString) {
-	var index = undefined;
-	for (var i = 0; i < n; ++i) {
+export function nthIndexOf(text, n, searchString) {
+	let index;
+	for (let i = 0; i < n; ++i) {
 		if (index != null) {
 			index += searchString.length;
 		}
@@ -46,7 +35,7 @@ function nthIndexOf(text, n, searchString) {
 /**
  * Removes the first occurence of `searchString`
  */
-function cutFirst(searchString, str) {
+export function cutFirst(searchString, str) {
 	var index = str.indexOf(searchString);
 	if (index === -1) {
 		return str;
@@ -62,7 +51,7 @@ function cutFirst(searchString, str) {
  * cutBefore(':', 'http://www.example.org/');
  * 'http'
  */
-function cutBefore(searchString, str) {
+export function cutBefore(searchString, str) {
 	var index = str.indexOf(searchString);
 	if (index === -1) {
 		return str;
@@ -74,7 +63,7 @@ function cutBefore(searchString, str) {
  * Removes everything after and including `index`.
  * Returns the unmodified String if `index` is -1
  */
-function cutBeforeIndex(index, str) {
+export function cutBeforeIndex(index, str) {
 	if (index === -1) {
 		return str;
 	}
