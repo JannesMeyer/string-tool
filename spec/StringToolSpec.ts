@@ -1,4 +1,4 @@
-import { startsWith, capitalize, nthIndexOf, cutFirst, cutFromIndex } from '..';
+import { startsWith, capitalize, nthIndexOf } from '..';
 
 describe('startsWith', () => {
 
