@@ -17,7 +17,8 @@ import { capitalize } from 'string-tool';
 - capitalize
 - nthIndexOf
 - cutFirst
-- cutFromIndex
+- cutBefore
+- cutBeforeIndex
 
 ## Contributing
 
