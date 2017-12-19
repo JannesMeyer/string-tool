@@ -1,19 +1,12 @@
 /**
- * Checks if the text starts with a certain string
- */
-export function startsWith(text: string, search: string): boolean {
-  return text.slice(0, search.length) === search;
-}
-
-/**
- * Capitalizes the first letter
+ * Capitalizes the first letter of the text
  */
 export function capitalize(text: string): string {
   return text.charAt(0).toUpperCase() + text.slice(1);
 }
 
 /**
- * Finds the index of the nth occurence of the search string
+ * Finds the index of the nth occurence of `search`
  */
 export function nthIndexOf(text: string, n: number, search: string): number | undefined {
   let index: number | undefined;
@@ -26,7 +19,7 @@ export function nthIndexOf(text: string, n: number, search: string): number | un
 }
 
 /**
- * Removes the first occurence of the search string
+ * Removes the first occurence of `search`
  */
 export function cutFirst(search: string, text: string): string {
   var index = text.indexOf(search);
@@ -37,9 +30,9 @@ export function cutFirst(search: string, text: string): string {
 }
 
 /**
- * Removes everything after (and including) the search string
+ * Removes everything after (and including) `search`
  * 
- * Returns the unmodified text if the search string is not found
+ * Returns the unmodified text if `search` is not found
  *
  * Useful for extracting the URL protocol:
  * cutBefore(':', 'http://www.example.org/');

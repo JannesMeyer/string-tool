@@ -3,7 +3,9 @@
   "version": "2.0.0",
   "description": "Useful functions for Strings",
   "keywords": [
-    "string"
+    "string",
+    "capitalize",
+    "capitalise"
   ],
   "author": "Jannes Meyer <jannes.meyer@gmail.com>",
   "license": "LGPL-3.0",

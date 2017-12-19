@@ -14,53 +14,34 @@
 import { capitalize } from 'string-tool';
 ```
 
-- [.startsWith](#startswith)
-- [.capitalize](#capitalize)
-- [.nthindexof](#nthindexof)
-- [.cutFirst](#cutfirst)
-- [.cutFromIndex](#cutfromindex)
-
-### startsWith
-
-	startsWith(str, searchString) → Boolean
-
-Checks if `str` starts with the `searchString`
-
-### capitalize
-
-	capitalize(str) → String
-
-Capitalizes the first letter of `str`
-
-### nthIndexOf
-
-	nthIndexOf(str, searchString, n[, fromIndex]) → Number
-
-Finds the index of the nth occurence of `searchString`
-
-### cutFirst
-
-	cutFirst(str, searchString) → String
-
-Remove the first occurence of `searchString`
-
-### cutFromIndex
-
-	cutFromIndex(str, fromIndex) → String
-
-Remove everything after `fromIndex`
+- capitalize
+- nthIndexOf
+- cutFirst
+- cutFromIndex
 
 ## Contributing
 
 Download source and compile:
 
-	git clone git@github.com:[USERNAME]/string-tool.git
-	make
+```sh
+git clone git@github.com:JannesMeyer/string-tool.git
+yarn
+```
 
-Watch for changes and recompile:
+Compile and watch for file changes:
 
-	make watch
+```sh
+yarn start
+```
 
 Run tests:
 
-	npm test
+```sh
+yarn test
+```
+
+Pull requests welcome. Please respect the existing formatting and indentation style. Furthermore, please add tests for code that you contribute.
+
+## License
+
+[LGPL v3.0](https://www.gnu.org/licenses/lgpl-3.0.en.html)
