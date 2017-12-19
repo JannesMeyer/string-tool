@@ -1,17 +1,4 @@
-import { startsWith, capitalize, nthIndexOf } from '../String';
-
-describe('startsWith', () => {
-
-  it('should return true when the string starts with another string', () => {
-    expect(startsWith('A test', 'A t')).toBe(true);
-    expect(startsWith('A test', 'A test')).toBe(true);
-  });
-
-  it('should return false when the string starts with something else', () => {
-    expect(startsWith('something', 'nothing')).toBe(false);
-  });
-
-});
+import { capitalize, nthIndexOf } from '../String';
 
 describe('capitalize', () => {
 
