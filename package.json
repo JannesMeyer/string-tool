@@ -15,7 +15,7 @@
   "scripts": {
     "prepare": "tsc",
     "start": "tsc -w",
-    "test": "jasmine"
+    "test": "tsc && jasmine"
   },
   "devDependencies": {
     "@types/jasmine": "^2.8.2",
